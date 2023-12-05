@@ -58,10 +58,8 @@ discrete_v = np.arange(0, v_max+1, 1)
 discrete_phi_t = np.asarray([('Y', 1), ('Y', 2), ('Y', 3), ('Y', 4), ('Y', 5)\
                             , ('R', 1), ('R', 2), ('R', 3), ('R', 4), ('R', 5), ('R', 6), ('R', 7), ('R', 8), ('R', 9), ('R', 10)\
                             , ('G', 1), ('G', 2), ('G', 3), ('G', 4), ('G', 5), ('G', 6), ('G', 7), ('G', 8), ('G', 9), ('G', 10)])
-# Q_table = np.zeros((len(discrete_d)*len(discrete_v)*len(discrete_phi_t), len(actions)))
 
 nonzero_ratio=0.95
-# q_table_size = Q_table.shape[0]*Q_table.shape[1]
 
 v_eps = 4
 critical_distance = 2
